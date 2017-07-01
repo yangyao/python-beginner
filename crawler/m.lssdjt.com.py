@@ -31,4 +31,4 @@ while start_timestamp < end_timestamp:
         f.writerow((li.find('a')['href'], li.string))
     #sys.exit()
     start_timestamp += 86400
-
+csvfile.close()
